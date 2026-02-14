@@ -99,7 +99,7 @@ public class AppointmentStepDefination {
     public void user_cancels_the_appointment() {
         listPage.cancelAppointment();
     }
-
+ //-----app-----
     @Then("appointment status should be {string}")
     public void appointment_status_should_be(String expected) {
         Assert.assertEquals(listPage.getStatus(), expected);
